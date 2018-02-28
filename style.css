@@ -1,0 +1,317 @@
+html{
+  width: 100%;
+  height: 100%;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 1px;
+}
+body{
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color:rgb(247, 245, 245) !important;  */
+  background-color:rgb(250, 249, 249) !important;
+  overflow: hidden;
+}
+#container-fluid { 
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  padding-right: 0px;
+ }
+.gray-line{
+  /* background-color: rgb(153, 152, 152); */
+  background: linear-gradient(to right,rgb(153, 152, 152) , whitesmoke);
+  width: 100% !important;
+  height: 3px;
+  margin-top: 50px;
+  position: absolute;
+}
+.gray-line-tab{
+  background-color: gray;
+  background: linear-gradient(to right,rgb(153, 152, 152) , whitesmoke);
+  width: 100% !important;
+  height: 2.5px;
+  margin-top: 50px;
+  position: absolute;
+}
+.image-div{
+  width: 25%;
+  height: 100%;
+  float: left;
+  margin-top: 0;
+  padding-top: 0;
+  position: absolute;
+}
+
+.empty-box-Top{
+  background-color: transparent;
+/*   background-color: gray;
+ */  width: 17%;
+  height: 20%;
+  float: left;
+  margin-top: 0%;
+  padding-top: 0%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  position: absolute;
+}
+.empty-box{
+  background-color: transparent;
+/*   background-color: pink;
+ */  width: 17%;
+  height: 20%;
+  float: left;
+  margin-top:10%;
+  /* margin-top: 0;*/
+  padding-top: 0%; 
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  position: absolute;
+}
+.empty-box2{
+  background-color: transparent;
+/*   background-color: yellow;
+ */  width: 17%;
+  height: 20%;
+  float: left;
+  margin-top:20%;
+  padding-top: 0%;
+  position: absolute;
+}
+#some-element { 
+  display: none; 
+/*   text-align: right; */
+  margin-left: 50%;
+  padding-left: 30%;
+  margin-top: 10%;
+/*   color: #829db4; */
+color: black;
+  font-size: 30px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+.empty-box:hover #some-element { 
+  display: block;
+ }
+ a{
+  text-decoration: none;
+ }
+ #some-element-div { 
+  display: none; 
+/*   text-align: right; */
+  margin-left: 100%;
+  padding-left: 30%;
+  margin-top: 10%;
+  /* color: #829db4; */ color: black;
+  font-size: 30px;
+  font-family: 'Work Sans', sans-serif;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  width: 120%;
+  height: 66px;
+  font-weight: 900;
+/*   background-color: darkcyan; */
+  opacity: 0.3;
+}
+.empty-box:hover #some-element-div { 
+  display: block;
+ }
+ .empty-box2:hover #some-element-div { 
+  display: block;
+ }
+ .empty-box3:hover #some-element-div { 
+  display: block;
+ }
+.empty-box3{
+  background-color: transparent;
+/*   background-color: green;
+ */  width: 17%;
+  height: 25%;
+  float: left;
+  margin-top:30%;
+  padding-top: 0%;
+  position: absolute;
+}
+.img{
+  width: 100%;
+  height: 100%;
+}
+.empty-box:hover { 
+
+  cursor: default;
+    transform: rotate(180deg);
+    transition: all 0.8s ease-in-out 4s;
+ }
+ .empty-box2:hover { 
+
+    cursor: default;
+      transform: rotate(180deg);
+      transition: all 0.8s ease-in-out 4s;
+   }
+   .empty-box3:hover { 
+ 
+      cursor: default;
+        transform: rotate(180deg);
+        transition: all 0.8s ease-in-out 4s;
+        
+     }
+     
+ .hey-div{
+  margin-left: 15%;
+  width: 40%;
+  height: 60%;
+  float: right;
+  position: absolute;
+  margin-top: 100px;
+  } 
+  .hey-div-tab{
+    /* padding-top: 35px;  */
+    margin-left: 25%;
+    width: 40%;
+    height: 60%;
+    float: right;
+    position: absolute;
+    margin-top: 100px;
+    } 
+ .hey{
+/*   color: #4c4d57; */  /* #F4A29F nice piece of pink */
+  color: black;  
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Work Sans', sans-serif;
+}
+.explain{
+ /*  color: #5d5e69; */
+  color: black;
+  font-size: 27px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 590;
+  /* letter-spacing: 0.1em; */
+  line-height: 1.2;
+}
+.about{
+  /* color: #5d5e69; */
+  color: black;
+  font-size: 27px;
+  font-family: 'Work Sans', sans-serif;
+  /* letter-spacing: 0.1em; */
+  font-weight: 590;
+  line-height: 1.3;
+}
+.logo{
+  float: right;
+  padding-right: 25px;
+  width: 30px;
+  height: 30px;
+  margin: 3px;
+}
+.logo-div{
+  margin-top: 535px;
+ }
+ .logo-div-tab{
+  padding-top: 530px;
+  margin-right: 250px;
+ }
+ .logo-tab{
+  float: right;
+  padding-right: 25px;
+  width: 22px;
+  height: 22px;
+  margin: 2px;
+}
+.center{
+  align-content: center;
+  background: gray;
+  margin-left: 35%;
+  margin-right: 25%;
+  margin-top: 5%;
+  margin-bottom: 25%;
+  width: 40%;
+  height: 70%;
+ 
+}
+.span{
+  text-align: right !important;
+  font-size: 13px;
+  font-weight: bold;
+  /* color: #5d5e69; */color: black;
+  font-family: 'Work Sans', sans-serif;
+  padding-top: 25px;
+  margin-right: 2px !important;
+  padding-right: 6px !important;
+}
+.contact{
+  width: 100%;
+  text-align: right !important;
+  float: right;
+  margin-right: 0%;
+  padding-right: 0%;
+  background-color: #5d5e69
+}
+
+
+
+main {
+  position: relative;
+  display: flex;
+  /*  font-family: 'Work Sans', sans-serif; */
+  font-family: 'Work Sans', sans-serif;
+  font-size: 20px;
+  /* min-height: 100vh; */
+  display: flex;
+  font-weight: normal !important;
+}
+.marker {
+  position: absolute; top: 4rem; left: -3rem;
+  height: 2rem; width: 25rem;
+  background-color: black;
+  animation-name: marker;
+  margin-left: 5px;
+}
+
+h1 { margin: 0; 
+  
+}
+.marker, .r, .e1, .s1, .s2, .e2 {
+  animation-timing-function: cubic-bezier(0.15,-0.01, 0.58, 1);
+  animation-duration: 5s;
+  animation-iteration-count: one;
+  will-change: transform;
+}
+
+
+
+.r { margin-left: 1rem;   animation-name: r; }
+.e1 { margin-left: 7rem; animation-name: e1; }
+.s1 { margin-left: 16rem; animation-name: s1; }
+.s2 { margin-left: 21rem; animation-name: s2; }
+.e2 { margin: 0 36rem 0 42rem; animation-name: e2; }
+
+@keyframes r { 
+  0%, 20% { transform: translateX(0); }
+  50%, 70% { transform: translateX(35rem); }
+}
+@keyframes e1 { 
+  0%, 20% { transform: translateX(0); }
+  50%, 70% { transform: translateX(75rem); }
+}
+@keyframes s1 { 
+  0%, 20% { transform: translateX(0); }
+  50%, 70% { transform: translateX(81rem); }
+}
+@keyframes s2 { 
+  0%, 20% { transform: translateX(0); }
+  50%, 70% { transform: translateX(71rem); }
+}
+@keyframes e2 { 
+  0%, 20% { transform: translateX(0); }
+  50%, 70% { transform: translateX(34rem); }
+}
+@keyframes marker { 
+  0%, 20% { transform: translateX(0); }
+  50%, 70% { transform: translateX(450rem); }
+}
